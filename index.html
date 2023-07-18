@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+
+    <style>
+        .link
+        {
+            margin-left: 1175px;
+        }
+   
+        .middle1
+            {
+                background-color: white;
+                width: 80%;
+                font-size: 20px;
+                color: rgb(0,0,98);
+                border-radius: 20px; 
+                height: 250px;
+                align-items: center;
+                margin-left: 150px;
+            }
+            .mySlides {display: none;}
+        .w3-round{
+    vertical-align: middle;
+    width:  100px;
+    height: 300px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+h1{
+    font-family:modern sans serif ;
+}
+
+
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 1px;
+}
+
+
+.text {
+  font-size: 23px;
+}
+    </style>
+</head>
+<body bgcolor="lightblue">
+<center>
+
+    <div class="container">
+        <div class="image">
+          <img src="SBI.png" width="80" height="80" style="align-items: center; margin-left: 520px;">
+        </div>
+        <div class="text">
+          <h1 style="color: darkblue" >XBI NET BANKING </h1>
+        </div>
+      </div>
+    
+</center>   
+<div class="link">
+  <h3> <a href="user.jsp" style="text-decoration: none;">User Login </a> |  <a href="about.jsp" style="text-decoration: none;">About </a> | <a href="admin.jsp" style="text-decoration: none;">Admin Login </a></h3>
+</div>
+
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img  src="Netbanking1.jpg" class="w3-round" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="Netbanking2.jpg" class="w3-round" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="Netbanking4.jpg" class="w3-round" style="width:100%">
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+
+
+
+    
+<br>
+
+<div class="middle1">
+    <table align="center">
+  <tr>
+        <td>
+        <div class="about1">
+            <h2>Headquarters </h2>
+            <div class="inside">
+                XBI BANK<br>
+                Canara Nagar<br>
+                Hyderabad<br>
+                500098
+            </div>
+        </div>
+     </td>
+
+<td>
+</td>
+
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+
+
+<td>
+  <br>
+        <h2>General Contact </h2>
+            <table>
+                <tr>
+                    <td>Toll-free:</td> 
+                    <td>999-999-0000</td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td> 
+                    <td>9898989898 </td>
+                </tr>
+                <tr>
+                    <td>Fax:</td> 
+                    <td>987-987-9709 </td>
+                </tr>
+                <tr>
+                        <td>Email:</td> 
+                        <td>office@xbibank.com</td>
+                </tr>
+            </table>
+       
+        </td>
+
+<td>
+</td>
+
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+
+ <td>
+    <div class="about1">
+        <h2>CustomerCare(24X7)</h2>
+        <div class="inside">
+            <table>
+                <tr>
+                    <td>Toll-free:</td> 
+                    <td>888-999-0000</td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td> 
+                    <td>9679678909 </td>
+                </tr>
+                
+                <tr>
+                        <td>Email:</td> 
+                        <td>care@xbibank.com</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+<td>
+</td>
+
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+
+<td>
+    <div class="about3">
+        <h2>Live Chat</h2>
+        <div class="inside3">
+            <table>
+                <tr>
+                    <td>Download our app and live Chat</td> 
+                    
+                </tr>
+                <tr>
+                    <td>with our customer care!</td> 
+                </tr>
+                
+                <tr>
+                        <td>App available on Google play</td> 
+                      
+                </tr>
+            </table>
+        </div>
+    </div>
+</td>
+
+</table>
+
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); 
+    }
+    </script>
+
+
+</body>
+</html>
